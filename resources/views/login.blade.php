@@ -24,7 +24,7 @@
     <div class="my-wrapper">
         <form id="loginForm" action="{{ route('login.post') }}" method="POST" onsubmit="return validateForm()">
             @csrf
-            <h2>Inicio de sesión 2</h2>
+            <h2>Inicio de sesión 1</h2>
             <div class="input-field">
                 <input type="text" name="email" required>
                 <label>Ingresa tu correo</label>
