@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fox Hound</title>
-    <link rel="stylesheet" href="{{ asset('styles.css') }}">
+    <link rel="stylesheet" href="<?php echo asset('styles.css'); ?>">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <script>
@@ -24,7 +24,7 @@
     <div class="my-wrapper">
         <form id="registerForm" action="{{ route('register.post') }}" method="POST">
             @csrf
-            <h2>Registro</h2>
+            <h2>Registro 1</h2>
             <div class="input-field">
                 <input type="text" name="name" required>
                 <label>Ingresa tu nombre de usuario</label>
